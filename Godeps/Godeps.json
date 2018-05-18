@@ -1,0 +1,32 @@
+{
+	"ImportPath": "github.com/FOULAB/foubot2",
+	"GoVersion": "go1.7",
+	"GodepVersion": "v80",
+	"Packages": [
+		"./..."
+	],
+	"Deps": [
+		{
+			"ImportPath": "github.com/d2r2/go-i2c",
+			"Rev": "a835bd4fb2d23aef05ffdaef1d9138786040e18b"
+		},
+		{
+			"ImportPath": "github.com/d2r2/go-logger",
+			"Rev": "e61ef04c3be664e400580014c35a877026f67123"
+		},
+		{
+			"ImportPath": "github.com/d2r2/go-shell",
+			"Rev": "2428040bef3591f20c30d5b3b00ff49b68f66dc7"
+		},
+		{
+			"ImportPath": "github.com/davecgh/go-spew/spew",
+			"Comment": "v1.1.0-12-g8991bc2",
+			"Rev": "8991bc29aa16c548c550c7ff78260e27b9ab7c73"
+		},
+		{
+			"ImportPath": "github.com/thoj/go-ircevent",
+			"Comment": "0.2-1-g82c531d",
+			"Rev": "82c531d5473d83b31832b903b249199238d106bd"
+		}
+	]
+}
