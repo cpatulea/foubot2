@@ -2,7 +2,7 @@ package ledsign
 
 import (
        "io"
-       "io/ioutil"	
+       "io/ioutil"
        "fmt"
        "time"
        "sync"
@@ -10,8 +10,8 @@ import (
        "strings"
        "net/http"
        
-       "../go-i2c"
-       "../configuration"
+       "github.com/d2r2/go-i2c"
+       "github.com/FOULAB/foubot2/configuration"
 )
 
 type fn func(string, string)

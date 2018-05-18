@@ -6,7 +6,7 @@ import (
        "os"
        "bytes"
 
-       "../go-i2c"
+       "github.com/d2r2/go-i2c"
 )
 
 

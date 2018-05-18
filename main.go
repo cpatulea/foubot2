@@ -7,9 +7,9 @@ import (
        "regexp"
        "crypto/tls"
 
-       "./go-ircevent"
-       "./ledsign"
-       "./configuration"
+       "github.com/thoj/go-ircevent"
+       "github.com/FOULAB/foubot2/ledsign"
+       "github.com/FOULAB/foubot2/configuration"
 )
 
 
